@@ -16,6 +16,21 @@ body {
     
 }
 
+
+/* General Code */
+
+footer {
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
 .vl {
     border-left: 3px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -48,10 +63,12 @@ nav {
 
 nav a {
     float: center;
-    padding: 0 15px 0 15px;
+    margin: 0 15px 0 15px;
     width: 33%;
     text-align: center;
 }
+
+
 
 nav a:hover {
     background-color: rgba(0,0,0,0.5);
@@ -74,17 +91,7 @@ nav a:hover {
     
 }    
 
-footer {
 
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin-bottom: 40px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    margin-top: 50px;
-}
 
 
 
