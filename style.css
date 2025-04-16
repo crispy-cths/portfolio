@@ -8,11 +8,11 @@
 
 body {
     background-image: url(objects/forest-rain.png);
-    background-size: auto;
+    background-size: cover 1;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     font-family: JBMONONF;
-    
+    background-color: #24273a
     
 }
 
@@ -58,6 +58,7 @@ nav a:hover {
 }
 
 
+/* Home Page Code */
 
 .greeter {
     margin: auto;
@@ -72,3 +73,24 @@ nav a:hover {
     width: 500px;
     
 }    
+
+footer {
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+
+/* About Me Code */
+
+#info {
+    text-align: left;
+    padding: 0 20px 0 20px;
+}
