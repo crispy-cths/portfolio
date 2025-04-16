@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "JBMonoNF";
+    src: url("https://codehs.com/uploads/5ed921fe6aaa521ab4971d92e3a69f77")
+}
+
+
+
+body {
+    background-image: url("https://codehs.com/uploads/a1a9431c8f8e0e3d13ec3226acc3b340");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: JBMONONF;
+    
+    
+}
+
+.vl {
+    border-left: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 30px;
+    
+}
+
+/* Navigation Bar Code */
+
+nav {
+    display: flex;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    width: 500px;
+    border-radius: 12px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.navigation {
+    text-decoration: none;
+    color: #e6e6e6;
+    border-radius: 10px;
+    transition: background-color 0.5s, padding 0.5s;
+}
+
+
+nav a {
+    float: center;
+    padding: 0 15px 0 15px;
+    width: 33%;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+
+.greeter {
+    margin: auto;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-top: 200px;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    width: 500px;
+    
+}    width: 75%;
