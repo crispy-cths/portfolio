@@ -4,15 +4,22 @@
     /* I KNOW THIS USES A CODEHS LINK, BUT IT WORKS AND IDK HOW TO GET IT TO WORK OTHERWISE >:(((( */
 }
 
-
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
 body {
     background-image: url(objects/forest-rain.png);
     background-size: cover 1;
     background-repeat: no-repeat;
     background-position: top;
-    font-family: JBMONONF;
-    background-color: #24273a
+    font-family: JBMonoNF;
+    background-color: #24273a;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: auto;
     
 }
 
@@ -20,9 +27,7 @@ body {
 /* General Code */
 
 footer {
-
-    position: fixed;
-    bottom: 0;
+    margin-top: 30px;
     width: 100%;
     margin-bottom: 40px;
     text-align: center;
@@ -43,6 +48,7 @@ footer {
 nav {
     display: flex;
     margin: auto;
+    margin-top: 10px;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);
     justify-content: space-between;
@@ -88,6 +94,7 @@ nav a:hover {
     flex-direction: column;
     backdrop-filter: blur(10px);
     width: 500px;
+    margin-bottom: 225px;
     
 }    
 
@@ -98,6 +105,6 @@ nav a:hover {
 /* About Me Code */
 
 #info {
-    text-align: left;
+    text-align: center;
     padding: 0 20px 0 20px;
 }
