@@ -9,6 +9,8 @@ html, body {
     margin: 0;
 }
 
+
+
 body {
     background-image: url(objects/forest-rain.png);
     background-size: cover 1;
@@ -93,8 +95,8 @@ nav a:hover {
     text-align: center;
     flex-direction: column;
     backdrop-filter: blur(10px);
-    width: 500px;
-    margin-bottom: 225px;
+    width: 700px;
+    margin-bottom: 30px;
     
 }    
 
@@ -107,4 +109,19 @@ nav a:hover {
 #info {
     text-align: center;
     padding: 0 20px 0 20px;
+}
+
+
+.fade {
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(36, 39, 58,1));
+    height: 300px;
+    row-gap: 0px;
+}
+
+
+.more {
+    background-color: rgb(36, 39, 58);
+    color: white;
+    height: 1000px;
+    row-gap: 0px;
 }
