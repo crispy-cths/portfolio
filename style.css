@@ -10,6 +10,10 @@ html, body {
 }
 
 
+.thingy {
+    background-image: linear-gradient(rgba(36, 39, 58,1), rgba(0,0,0,0));
+    min-height: 30px;
+}
 
 body {
     background-image: url(objects/forest-rain.png);
@@ -104,7 +108,7 @@ nav a:hover {
 
 
 
-/* About Me Code */
+
 
 #info {
     text-align: center;
@@ -114,7 +118,7 @@ nav a:hover {
 
 .fade {
     background-image: linear-gradient(rgba(0,0,0,0), rgba(36, 39, 58,1));
-    height: 300px;
+    min-height: 300px;
     row-gap: 0px;
 }
 
@@ -122,6 +126,11 @@ nav a:hover {
 .more {
     background-color: rgb(36, 39, 58);
     color: white;
-    height: 1000px;
+    height: 500px;;
     row-gap: 0px;
+}
+
+
+#project-main{
+    margin-bottom: 30px !important;
 }
