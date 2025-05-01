@@ -15,8 +15,15 @@ html, body {
     min-height: 30px;
 }
 
+/* Scrollbar Styling because im procrastinating on the project */
+::-webkit-scrollbar {
+    width: 0px;
+
+}
+
+
 body {
-    background-image: url(objects/forest-rain.png);
+    background-image: url(objects/forest-rain-gradient.png);
     background-size: cover 1;
     background-repeat: no-repeat;
     background-position: top;
@@ -25,9 +32,8 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
-    overflow-y: auto;
-    scrollbar-width: none;
-    overflow-x: hidden;
+
+
 }
 
 
@@ -94,7 +100,7 @@ nav a:hover {
     margin: auto;
     background-color: rgba(0,0,0,0.2);
     border-radius: 10px;
-    margin-top: 200px;
+    margin-top: 200px !important;
     color: white;
     display: flex;
     text-align: center;
@@ -106,8 +112,28 @@ nav a:hover {
     
 }    
 
+.glass-box {
+    margin: auto;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-top: 150px;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    width: 75%;
+    max-width: 750px;
+    margin-bottom: 30px;
+}
 
 
+
+
+#cat {
+    width: 250px;
+    border-radius: 10px;;
+}
 
 
 
@@ -120,12 +146,7 @@ nav a:hover {
 }
 
 
-.fade {
-    background-image: linear-gradient(rgba(0,0,0,0), rgba(36, 39, 58,1));
-    min-height: 300px;
-    row-gap: 0px;
-    
-}
+
 
 
 .more {
@@ -138,4 +159,17 @@ nav a:hover {
 
 #project-main{
     margin-bottom: 30px !important;
+}
+
+
+
+
+
+
+#featured-project-image {
+    width: 250px;
+}
+
+#featured-project-text {
+    
 }
