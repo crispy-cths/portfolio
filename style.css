@@ -132,7 +132,7 @@ nav a:hover {
 
 #cat {
     width: 250px;
-    border-radius: 10px;;
+    border-radius: 10px;
 }
 
 
@@ -166,10 +166,22 @@ nav a:hover {
 
 
 
+.featured {
+    display: flex;
+    margin: auto;
+    min-width: 500px;
+    height: 300;
+}
+
 #featured-project-image {
     width: 250px;
+    padding: 0px 5px 10px 30px;
+    border-radius: 10px;
 }
 
 #featured-project-text {
-    
+    text-align: jutify;
+    width: 300px;
+    width: 400px;
+    display: inline-block;
 }
