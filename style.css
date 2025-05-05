@@ -135,7 +135,9 @@ nav a:hover {
     border-radius: 10px;
 }
 
-
+#about-objects {
+    padding-bottom: 10px;
+}
 
 
 #info {
@@ -157,24 +159,25 @@ nav a:hover {
 }
 
 
-#project-main{
-    margin-bottom: 30px !important;
+
+
+
+
+
+.featured-div {
+    margin-top: 100px;
 }
-
-
-
-
-
 
 .featured {
     display: flex;
     margin: auto;
-    min-width: 500px;
-    height: 300;
+    min-width: 500px; 
+    height: 200px;;
 }
 
 #featured-project-image {
     width: 250px;
+    height: 158px;
     padding: 0px 5px 10px 30px;
     border-radius: 10px;
 }
@@ -184,4 +187,44 @@ nav a:hover {
     width: 300px;
     width: 400px;
     display: inline-block;
+}
+
+
+
+
+
+/* Project Page Code */
+
+
+#project-main{
+    margin-bottom: 175px !important;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+#project-1 img {
+    width: 300px;
+    padding-bottom: 10px;
+    padding-right: 10px;;
+}
+
+#project-1 p {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+}
+
+
+
+
+
+#project-image-2 {
+    height: 300px;
 }
