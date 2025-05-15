@@ -1,8 +1,12 @@
+/* Change the font to JetBrains Mono Nerd Font */
+
 @font-face {
     font-family: "JBMonoNF";
     src: url("https://codehs.com/uploads/5ed921fe6aaa521ab4971d92e3a69f77")
     /* I KNOW THIS USES A CODEHS LINK, BUT IT WORKS AND IDK HOW TO GET IT TO WORK OTHERWISE >:(((( */
 }
+
+
 
 html, body {
     height: 100%;
@@ -15,7 +19,7 @@ html, body {
     min-height: 30px;
 }
 
-/* Scrollbar Styling because im procrastinating on the project */
+/* Scrollbar Styling because yes */
 ::-webkit-scrollbar {
     width: 0px;
 
@@ -112,6 +116,9 @@ nav a:hover {
     
 }    
 
+
+/* Generic Code for the Glass Boxes */
+
 .glass-box {
     margin: auto;
     background-color: rgba(0,0,0,0.2);
@@ -162,7 +169,7 @@ nav a:hover {
 
 
 
-
+/* Featured Projects Code */
 
 .featured-div {
     margin-top: 100px;
